@@ -2,41 +2,7 @@ This project is based on [ultralytics/yolov3](https://github.com/ultralytics/yol
 
 LF-YOLO (Lighter and Faster YOLO) is used to detect defect of X-ray weld image. 
 
-<img width="500" src="https://raw.githubusercontent.com/lmomoy/images/main/weld.jpg">  
-
-
-[comment]: <> (<a align="left" href="https://apps.apple.com/app/id1452689527" target="_blank">)
-
-[comment]: <> (<img width="800" src="https://user-images.githubusercontent.com/26833433/99805965-8f2ca800-2b3d-11eb-8fad-13a96b222a23.jpg"></a>)
-
-[comment]: <> (&nbsp)
-
-[comment]: <> (<a href="https://github.com/ultralytics/yolov3/actions"><img src="https://github.com/ultralytics/yolov3/workflows/CI%20CPU%20testing/badge.svg" alt="CI CPU testing"></a>)
-
-[comment]: <> (This repository represents Ultralytics open-source research into future object detection methods, and incorporates lessons learned and best practices evolved over thousands of hours of training and evolution on anonymized client datasets. **All code and models are under active development, and are subject to modification or deletion without notice.** Use at your own risk.)
-
-[comment]: <> (<p align="left"><img width="800" src="https://user-images.githubusercontent.com/26833433/114424655-a0dc1e00-9bb8-11eb-9a2e-cbe21803f05c.png"></p>)
-
-[comment]: <> (<details>)
-
-[comment]: <> (  <summary>YOLOv5-P5 640 Figure &#40;click to expand&#41;</summary>)
-  
-[comment]: <> (<p align="left"><img width="800" src="https://user-images.githubusercontent.com/26833433/114313219-f1d70e00-9af5-11eb-9973-52b1f98d321a.png"></p>)
-
-[comment]: <> (</details>)
-
-[comment]: <> (<details>)
-
-[comment]: <> (  <summary>Figure Notes &#40;click to expand&#41;</summary>)
-  
-[comment]: <> (  * GPU Speed measures end-to-end time per image averaged over 5000 COCO val2017 images using a V100 GPU with batch size 32, and includes image preprocessing, PyTorch FP16 inference, postprocessing and NMS. )
-
-[comment]: <> (  * EfficientDet data from [google/automl]&#40;https://github.com/google/automl&#41; at batch size 8.)
-
-[comment]: <> (  * **Reproduce** by `python test.py --task study --data coco.yaml --iou 0.7 --weights yolov3.pt yolov3-spp.pt yolov3-tiny.pt yolov5l.pt`)
-
-[comment]: <> (</details>)
-
+<img width="500" src="https://raw.githubusercontent.com/lmomoy/images/main/weld_results.jpg">
 
 ## Download
 
