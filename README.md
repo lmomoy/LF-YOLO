@@ -22,12 +22,16 @@ $ python train.py --data coco.yaml --cfg LF-YOLO.yaml      --weights '' --batch-
 ## Results
 We test our model on public dataset MS COCO, and it also achieves competitive results.
 
-Model |size<br><sup>(pixels) |mAP<sup>val<br>0.5:0.95 |mAP<sup>test<br>0.5:0.95 |mAP<sup>val<br>0.5 |params<br><sup>(M) |FLOPS<br><sup>640 (B)
----   |---                   |---                     |---                      |---                |---                |---
-YOLOv3-tiny            |640  |17.6     |17.6     |34.8     |8.8   |13.2
-YOLOv3                 |640  |43.3     |43.3     |63.0     |61.9  |156.3
-YOLOv3-SPP             |640  |44.3     |44.3     |64.6     |63.0  |157.1
-LF-YOLO                |640  |27.8     |27.9     |47.8     |7.4   |17.1
+Model                  |size<br><sup>(pixels)  |mAP<sup>test<br>0.5 |params<br><sup>(M) |FLOPS<br><sup>640 (B)
+---                    |---                    |---                 |---                |---               
+YOLOv3-tiny            |640                    |34.8                |8.8                |13.2
+YOLOv3                 |320                    |51.5                |39.0               |61.9
+SSD                    |300                    |41.2                |35.2               |34.3
+SSD                    |512                    |46.5                |99.5               |34.3
+Faster R-CNN(VGG16)    |shorter size: 800      |43.9                |-                  |278.0
+R-FCN(ResNet50)        |shorter size: 800      |49.0                |-                  |133.0
+R-FCN(ResNet101)       |shorter size: 800      |52.9                |-                  |206.0
+LF-YOLO                |640                    |47.8                |7.4                |17.1
 
 
 
