@@ -20,6 +20,27 @@ $ python train.py --data coco.yaml --cfg LF-YOLO.yaml      --weights '' --batch-
 ```
 
 ## Results
+We test LF-YOLO on our weld defect image dataset. Other methods are trained and tested based on [MMDetection](https://github.com/open-mmlab/mmdetection).
+
+Model                      |size<br><sup>(pixels)  |mAP<sup>test<br>0.5 |params<br><sup>(M) |FLOPS<br><sup>640 (B)
+---                        |---                    |---                 |---                |---               
+Cascasde-RCNN (ResNet50)   |(1333, 800)            |90.0                |68.9               |243.2
+Cascasde-RCNN (ResNet101)  |(1333, 800)            |90.7                |87.9               |323.1
+Faster-RCNN (ResNet50)     |(1333, 800)            |90.1                |41.1               |215.4
+Faster-RCNN (ResNet101)    |(1333, 800)            |92.2                |60.1               |295.3
+Dynamic-RCNN (ResNet50)    |(1333, 800)            |90.3                |41.1               |215.4
+RetinaNet (ResNet50)       |(1333, 800)            |80.0                |36.2               |205.2
+VFNet (ResNet50)           |(1333, 800)            |87.0                |32.5               |197.8
+VFNet (ResNet101)          |(1333, 800)            |87.2                |51.5               |277.7
+Reppoints (ResNet101)      |(1333, 800)            |82.7                |36.6               |199.0
+SSD300 (VGGNet)            |300                    |88.1                |24.0               |30.6
+YOLOv3 (Darknet52)         |416                    |91.0                |62.0               |33.1
+SSD (MobileNet v2)         |300                    |82.3                |3.1                |0.7
+YOLOv3 (MobileNet v2)      |416                    |90.2                |3.7                |1.6
+LF-YOLO-0.5                |640                    |90.7                |1.8                |1.1
+LF-YOLO                    |640                    |92.9                |7.4                |17.1
+
+
 We test our model on public dataset MS COCO, and it also achieves competitive results.
 
 Model                  |size<br><sup>(pixels)  |mAP<sup>test<br>0.5 |params<br><sup>(M) |FLOPS<br><sup>640 (B)
