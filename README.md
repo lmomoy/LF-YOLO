@@ -22,7 +22,7 @@ $ python train.py --data coco.yaml --cfg LF-YOLO.yaml      --weights '' --batch-
 ## Results
 We test LF-YOLO on our weld defect image dataset. Other methods are trained and tested based on [MMDetection](https://github.com/open-mmlab/mmdetection).
 
-Model                      |size<br><sup>(pixels)  |mAP<sup>test<br>0.5 |params<br><sup>(M) |FLOPS<br><sup>640 (B)
+Model                      |size<br><sup>(pixels)  |mAP<sup>test<br>0.5 |params<br><sup>(M) |FLOPS<br> (B)
 ---                        |---                    |---                 |---                |---               
 Cascasde-RCNN (ResNet50)   |(1333, 800)            |90.0                |68.9               |243.2
 Cascasde-RCNN (ResNet101)  |(1333, 800)            |90.7                |87.9               |323.1
@@ -43,7 +43,7 @@ LF-YOLO                    |640                    |92.9                |7.4    
 
 We test our model on public dataset MS COCO, and it also achieves competitive results.
 
-Model                  |size<br><sup>(pixels)  |mAP<sup>test<br>0.5 |params<br><sup>(M) |FLOPS<br><sup>640 (B)
+Model                  |size<br><sup>(pixels)  |mAP<sup>test<br>0.5 |params<br><sup>(M) |FLOPS<br> (B)
 ---                    |---                    |---                 |---                |---               
 YOLOv3-tiny            |640                    |34.8                |8.8                |13.2
 YOLOv3                 |320                    |51.5                |39.0               |61.9
