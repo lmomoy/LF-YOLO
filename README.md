@@ -28,9 +28,9 @@ YOLOv3-tiny            |640                    |34.8                |8.8        
 YOLOv3                 |320                    |51.5                |39.0               |61.9
 SSD                    |300                    |41.2                |35.2               |34.3
 SSD                    |512                    |46.5                |99.5               |34.3
-Faster R-CNN(VGG16)    |shorter size: 800      |43.9                |-                  |278.0
-R-FCN(ResNet50)        |shorter size: 800      |49.0                |-                  |133.0
-R-FCN(ResNet101)       |shorter size: 800      |52.9                |-                  |206.0
+Faster R-CNN (VGG16)    |shorter size: 800      |43.9                |-                  |278.0
+R-FCN (ResNet50)        |shorter size: 800      |49.0                |-                  |133.0
+R-FCN (ResNet101)       |shorter size: 800      |52.9                |-                  |206.0
 LF-YOLO                |640                    |47.8                |7.4                |17.1
 
 
