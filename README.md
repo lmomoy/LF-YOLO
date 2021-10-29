@@ -57,14 +57,19 @@ LF-YOLO                |640                    |47.8                |7.4        
 
 
 
-<details>
-  <summary>Table Notes (click to expand)</summary>
+[comment]: <> (<details>)
+
+[comment]: <> (  <summary>Table Notes &#40;click to expand&#41;</summary>)
   
-  * AP<sup>test</sup> denotes COCO [test-dev2017](http://cocodataset.org/#upload) server results, all other AP results denote val2017 accuracy.  
-  * AP values are for single-model single-scale unless otherwise noted. **Reproduce mAP** by `python test.py --data coco.yaml --img 640 --conf 0.001 --iou 0.65`  
-  * Speed<sub>GPU</sub> averaged over 5000 COCO val2017 images using a GCP [n1-standard-16](https://cloud.google.com/compute/docs/machine-types#n1_standard_machine_types) V100 instance, and includes FP16 inference, postprocessing and NMS. **Reproduce speed** by `python test.py --data coco.yaml --img 640 --conf 0.25 --iou 0.45`  
-  * All checkpoints are trained to 300 epochs with default settings and hyperparameters (no autoaugmentation). 
-</details>
+[comment]: <> (  * AP<sup>test</sup> denotes COCO [test-dev2017]&#40;http://cocodataset.org/#upload&#41; server results, all other AP results denote val2017 accuracy.  )
+
+[comment]: <> (  * AP values are for single-model single-scale unless otherwise noted. **Reproduce mAP** by `python test.py --data coco.yaml --img 640 --conf 0.001 --iou 0.65`  )
+
+[comment]: <> (  * Speed<sub>GPU</sub> averaged over 5000 COCO val2017 images using a GCP [n1-standard-16]&#40;https://cloud.google.com/compute/docs/machine-types#n1_standard_machine_types&#41; V100 instance, and includes FP16 inference, postprocessing and NMS. **Reproduce speed** by `python test.py --data coco.yaml --img 640 --conf 0.25 --iou 0.45`  )
+
+[comment]: <> (  * All checkpoints are trained to 300 epochs with default settings and hyperparameters &#40;no autoaugmentation&#41;. )
+
+[comment]: <> (</details>)
 
 
 ## Requirements
