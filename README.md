@@ -10,7 +10,7 @@ LF-YOLO (Lighter and Faster YOLO) is used to detect defect of X-ray weld image. 
 $ git clone https://github.com/lmomoy/LF-YOLO
 ```
 ## Train
-We provide multiple versions of LF-YOLO with different depths. 
+We provide multiple versions of LF-YOLO with different widths. 
 
 ```train
 $ python train.py --data coco.yaml --cfg LF-YOLO.yaml      --weights '' --batch-size 1
