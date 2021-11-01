@@ -36,9 +36,9 @@ Reppoints (ResNet101)      |(1333, 800)            |82.7                |36.6   
 SSD300 (VGGNet)            |300                    |88.1                |24.0               |30.6
 YOLOv3 (Darknet52)         |416                    |91.0                |62.0               |33.1
 SSD (MobileNet v2)         |300                    |82.3                |3.1                |0.7
-YOLOv3 (MobileNet v2)      |416                    |90.2                |3.7                |1.6
-LF-YOLO-0.5                |640                    |90.7                |1.8                |1.1
-LF-YOLO                    |640                    |92.9                |7.3                |4.0
+YOLOv3 (MobileNet v2)      |320                    |90.2                |3.7                |1.6
+LF-YOLO-0.5                |320                    |90.7                |1.8                |1.1
+LF-YOLO                    |320                    |92.9                |7.3                |4.0
 
 
 We test our model on public dataset MS COCO, and it also achieves competitive results.
