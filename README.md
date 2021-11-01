@@ -38,7 +38,7 @@ YOLOv3 (Darknet52)         |416                    |91.0                |62.0   
 SSD (MobileNet v2)         |300                    |82.3                |3.1                |0.7
 YOLOv3 (MobileNet v2)      |416                    |90.2                |3.7                |1.6
 LF-YOLO-0.5                |640                    |90.7                |1.8                |1.1
-LF-YOLO                    |640                    |92.9                |7.4                |17.1
+LF-YOLO                    |640                    |92.9                |7.3                |4.0
 
 
 We test our model on public dataset MS COCO, and it also achieves competitive results.
