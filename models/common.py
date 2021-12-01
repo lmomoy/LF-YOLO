@@ -190,9 +190,9 @@ class GDConv(nn.Module):
         return out[:, :self.oup, :, :]
 
 
-class EMF(nn.Module):
+class RMF(nn.Module):
     def __init__(self, inp, oup):
-        super(EMF, self).__init__()
+        super(RMF, self).__init__()
         ratio = 12
         oup = oup//ratio
         self.Dilation0_1 = GDConv(inp, oup, dialte=1)

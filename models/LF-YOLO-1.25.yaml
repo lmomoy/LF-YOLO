@@ -35,7 +35,7 @@ backbone:
 
 # YOLOv3-SPP head
 head:
-  [[-1, 1, EMF, [3840]],
+  [[-1, 1, RMF, [3840]],
    [-1, 1, Conv, [640, 1, 1]],
    [-1, 1, GhostModule, [1280]],
    [-1, 1, Conv, [320, 1, 1]], # 22 (P5/32-large)
