@@ -83,3 +83,14 @@ $ pip install -r requirements.txt
 $ python detect.py --source data/images --weights LF-YOLO.pt --conf 0.25
 ```
 
+## Citation
+Please consider citing my work as follows if it is helpful.
+```
+@article{liu2021lf,
+  title={LF-YOLO: A Lighter and Faster YOLO for Weld Defect Detection of X-ray Image},
+  author={Liu, Moyun and Chen, Youping and He, Lei and Zhang, Yang and Xie, Jingming},
+  journal={arXiv preprint arXiv:2110.15045},
+  year={2021}
+}
+```
+
