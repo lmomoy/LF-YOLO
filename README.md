@@ -86,6 +86,17 @@ $ python detect.py --source data/images --weights LF-YOLO.pt --conf 0.25
 ## Citation
 Please consider citing my work as follows if it is helpful for you.
 ```
+@article{liu2023lf,
+  title={LF-YOLO: A lighter and faster yolo for weld defect detection of X-ray image},
+  author={Liu, Moyun and Chen, Youping and Xie, Jingming and He, Lei and Zhang, Yang},
+  journal={IEEE Sensors Journal},
+  volume={23},
+  number={7},
+  pages={7430--7439},
+  year={2023},
+  publisher={IEEE}
+}
+
 @article{liu2021lf,
   title={LF-YOLO: A Lighter and Faster YOLO for Weld Defect Detection of X-ray Image},
   author={Liu, Moyun and Chen, Youping and He, Lei and Zhang, Yang and Xie, Jingming},
