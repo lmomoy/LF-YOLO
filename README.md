@@ -1,6 +1,6 @@
 This project is based on [ultralytics/yolov3](https://github.com/ultralytics/yolov3).
 
-LF-YOLO (Lighter and Faster YOLO) is used to detect defect of X-ray weld image. The related paper is available [here](http://arxiv.org/abs/2110.15045).
+LF-YOLO (Lighter and Faster YOLO) is used to detect defect of X-ray weld image. The related paper is available [here](https://ieeexplore.ieee.org/document/10054502).
 
 <img width="500" src="https://raw.githubusercontent.com/lmomoy/images/main/weld_result.jpg">
 
